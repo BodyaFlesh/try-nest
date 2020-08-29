@@ -5,7 +5,7 @@ services:
         container_name: 'db-nest-pg'
         ports: 
             - 5433:5432
-        nvironment:
-            - POSTGRES_USER=postgres
-            - POSTGRES_PASSWORD=postgress
+        environment:
+            - POSTGRES_USER=nest
+            - POSTGRES_PASSWORD=nest
             - POSTGRES_DB=nest
