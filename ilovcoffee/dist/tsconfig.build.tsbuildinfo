@@ -2426,8 +2426,13 @@
         "signature": "26d590f7fc94dc8bd476aab67a6047b39a72b0dcbdb7c5ce1dbd369762d63e4f",
         "affectsGlobalScope": false
       },
+      "../src/coffees/entities/flavor.entity.ts": {
+        "version": "1190977bf269f73b887e27b8a2247020f4cf4180c7634167d39fce1af4af05cb",
+        "signature": "aa4e06b97b51f1ba0463558937acd45049e24e84666b19e8229c975bd0078d1e",
+        "affectsGlobalScope": false
+      },
       "../src/coffees/entities/coffee.entity.ts": {
-        "version": "ce1ca7bcf6e3fcd29ceeccb7229b6d2e256b01794b335aba95378b7e18d3606d",
+        "version": "4fc46f36b9bc25b0d3ac06449b47ea57b3636484f58b0dde5e39dcfa7c1ec6fd",
         "signature": "e4aebe3c70ebb799ff41d1032579e390adcdbc275d06052a6fcf034f5efe40e2",
         "affectsGlobalScope": false
       },
@@ -3152,7 +3157,7 @@
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.module.ts": {
-        "version": "dab28cefab1ef9f52171480375901bea590cb3aa31ef72dd63ceecd8fa27a6bf",
+        "version": "4a3ca4a4072b2d8fa7c99b3d68085fa024d06fa865f259b56963f40fd305961b",
         "signature": "d3a19632d9dfefef1b3451bcece8da21fe7079f14d42da4cf45eb1c1b6ed3d09",
         "affectsGlobalScope": false
       },
@@ -10948,7 +10953,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/coffees/coffees.controller.ts",
         "../src/coffees/coffees.service.ts",
-        "../src/coffees/entities/coffee.entity.ts"
+        "../src/coffees/entities/coffee.entity.ts",
+        "../src/coffees/entities/flavor.entity.ts"
       ],
       "../src/coffees/coffees.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -10986,7 +10992,17 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/coffees/entities/flavor.entity.ts"
+      ],
+      "../src/coffees/entities/flavor.entity.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/coffees/entities/coffee.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -18054,6 +18070,9 @@
       "../src/coffees/dto/update-coffee.dto.ts": [
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/coffees/dto/create-coffee.dto.ts"
+      ],
+      "../src/coffees/entities/flavor.entity.ts": [
+        "../src/coffees/entities/coffee.entity.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -18825,6 +18844,7 @@
       "../src/coffees/dto/create-coffee.dto.ts",
       "../src/coffees/dto/update-coffee.dto.ts",
       "../src/coffees/entities/coffee.entity.ts",
+      "../src/coffees/entities/flavor.entity.ts",
       "../src/main.ts"
     ]
   },
