@@ -2431,9 +2431,49 @@
         "signature": "e4aebe3c70ebb799ff41d1032579e390adcdbc275d06052a6fcf034f5efe40e2",
         "affectsGlobalScope": false
       },
-      "../src/coffees/coffees.service.ts": {
-        "version": "a3dffd8eacd9f1b4a65faf5300088892068dd5c530fd4904c36a2313d238c3c6",
-        "signature": "9941090dc94365926b3a8186bfe3df541b0ecbcab61724a577a1f39e2de04e94",
+      "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
+        "version": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
+        "signature": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts": {
+        "version": "cd2afab7b5206a624ef3a603568ce42a7c65e7e4958f1c9518b70580523db653",
+        "signature": "cd2afab7b5206a624ef3a603568ce42a7c65e7e4958f1c9518b70580523db653",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts": {
+        "version": "e3453c7c86e7621fb38373a07174adb72b6508a066a934cbd437386f3eb4481f",
+        "signature": "e3453c7c86e7621fb38373a07174adb72b6508a066a934cbd437386f3eb4481f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": {
+        "version": "9a7638d62db8cfa1466093d7d413fdf85c5e4a7c663ed76f2bfc8739c8e01505",
+        "signature": "9a7638d62db8cfa1466093d7d413fdf85c5e4a7c663ed76f2bfc8739c8e01505",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/interfaces/typeorm-options.interface.d.ts": {
+        "version": "3e123c397e8b6a50de4da383e7508c91e09a4fe62a8661a4a07c383c175ff83d",
+        "signature": "3e123c397e8b6a50de4da383e7508c91e09a4fe62a8661a4a07c383c175ff83d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/interfaces/index.d.ts": {
+        "version": "c338859b98f8a11f80e3e47e33767299e7a4facdf0870c01c8694fa8fa048d16",
+        "signature": "c338859b98f8a11f80e3e47e33767299e7a4facdf0870c01c8694fa8fa048d16",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts": {
+        "version": "506ddc141d91c4155d39ce3125a92b4636ed10db070c0cfdac7e54376178c30c",
+        "signature": "506ddc141d91c4155d39ce3125a92b4636ed10db070c0cfdac7e54376178c30c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/dist/index.d.ts": {
+        "version": "b113e9770d5be136c5e2add9e6cdf40d85051762ff2391f71d552975e66b1500",
+        "signature": "b113e9770d5be136c5e2add9e6cdf40d85051762ff2391f71d552975e66b1500",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/typeorm/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
       "../node_modules/class-validator/types/validation/ValidationError.d.ts": {
@@ -3101,54 +3141,14 @@
         "signature": "0695e3c78a22eb44058db77bb622ea079a1a8f9dc41867ead62b581b93a8527b",
         "affectsGlobalScope": false
       },
+      "../src/coffees/coffees.service.ts": {
+        "version": "eb40741efae611ae51615c9f97794cb75f39c36cb3ba4d7773c12c032a97149c",
+        "signature": "3c7ed56091939fcf62dddde19193879bd26ff3db4ec7676ee5940ed8bd90b818",
+        "affectsGlobalScope": false
+      },
       "../src/coffees/coffees.controller.ts": {
         "version": "ba5f09e616cae3812703c7447820112caa076f0806ed2708eee99cc9eb79bc4a",
-        "signature": "2c5b358bb198d13e7c947fcc50502b6869c89c27b99a073448291da81310e9a1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
-        "version": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
-        "signature": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts": {
-        "version": "cd2afab7b5206a624ef3a603568ce42a7c65e7e4958f1c9518b70580523db653",
-        "signature": "cd2afab7b5206a624ef3a603568ce42a7c65e7e4958f1c9518b70580523db653",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts": {
-        "version": "e3453c7c86e7621fb38373a07174adb72b6508a066a934cbd437386f3eb4481f",
-        "signature": "e3453c7c86e7621fb38373a07174adb72b6508a066a934cbd437386f3eb4481f",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": {
-        "version": "9a7638d62db8cfa1466093d7d413fdf85c5e4a7c663ed76f2bfc8739c8e01505",
-        "signature": "9a7638d62db8cfa1466093d7d413fdf85c5e4a7c663ed76f2bfc8739c8e01505",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/interfaces/typeorm-options.interface.d.ts": {
-        "version": "3e123c397e8b6a50de4da383e7508c91e09a4fe62a8661a4a07c383c175ff83d",
-        "signature": "3e123c397e8b6a50de4da383e7508c91e09a4fe62a8661a4a07c383c175ff83d",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/interfaces/index.d.ts": {
-        "version": "c338859b98f8a11f80e3e47e33767299e7a4facdf0870c01c8694fa8fa048d16",
-        "signature": "c338859b98f8a11f80e3e47e33767299e7a4facdf0870c01c8694fa8fa048d16",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts": {
-        "version": "506ddc141d91c4155d39ce3125a92b4636ed10db070c0cfdac7e54376178c30c",
-        "signature": "506ddc141d91c4155d39ce3125a92b4636ed10db070c0cfdac7e54376178c30c",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/dist/index.d.ts": {
-        "version": "b113e9770d5be136c5e2add9e6cdf40d85051762ff2391f71d552975e66b1500",
-        "signature": "b113e9770d5be136c5e2add9e6cdf40d85051762ff2391f71d552975e66b1500",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/typeorm/index.d.ts": {
-        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
-        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "4a5b8fb369509bfb53dc2aff4886e14baf884b94af0b22df3a2e12739faf7cef",
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.module.ts": {
@@ -10952,11 +10952,15 @@
       ],
       "../src/coffees/coffees.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/coffees/dto/create-coffee.dto.ts",
+        "../src/coffees/dto/update-coffee.dto.ts",
         "../src/coffees/entities/coffee.entity.ts"
       ],
       "../src/coffees/dto/create-coffee.dto.ts": [
@@ -18042,6 +18046,9 @@
         "../src/coffees/entities/coffee.entity.ts"
       ],
       "../src/coffees/coffees.service.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/coffees/dto/create-coffee.dto.ts",
+        "../src/coffees/dto/update-coffee.dto.ts",
         "../src/coffees/entities/coffee.entity.ts"
       ],
       "../src/coffees/dto/update-coffee.dto.ts": [
