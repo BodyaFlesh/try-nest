@@ -22,10 +22,14 @@ let CoffeesService = class CoffeesService {
         this.coffeeRepository = coffeeRepository;
     }
     async findAll() {
-        return await this.coffeeRepository.find();
+        return await this.coffeeRepository.find({
+            relations: ['flovors']
+        });
     }
     async findOne(id) {
-        const coffee = await this.coffeeRepository.findOne();
+        const coffee = await this.coffeeRepository.findOne(id, {
+            relations: ['flovors']
+        });
         if (!coffee) {
             throw new common_1.NotFoundException(`Coffee #${id} not found`);
         }

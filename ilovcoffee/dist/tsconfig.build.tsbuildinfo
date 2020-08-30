@@ -3147,7 +3147,7 @@
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.service.ts": {
-        "version": "eb40741efae611ae51615c9f97794cb75f39c36cb3ba4d7773c12c032a97149c",
+        "version": "482ab5daa9b93aa77086b50bda5da15268321a530bc06e77d1e16d17ae9d790d",
         "signature": "3c7ed56091939fcf62dddde19193879bd26ff3db4ec7676ee5940ed8bd90b818",
         "affectsGlobalScope": false
       },
