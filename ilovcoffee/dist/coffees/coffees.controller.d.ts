@@ -1,7 +1,10 @@
+import { CoffeesService } from './coffees.service';
 export declare class CoffeesController {
-    findAll(paginationQuery: any): string;
-    findOne(id: string): string;
-    create(body: any): any;
-    update(id: string, body: any): string;
-    remove(id: string): string;
+    private readonly coffeesService;
+    constructor(coffeesService: CoffeesService);
+    findAll(paginationQuery: any): import("./entities/coffee.entity").Coffee[];
+    findOne(id: string): import("./entities/coffee.entity").Coffee;
+    create(body: any): void;
+    update(id: string, body: any): void;
+    remove(id: string): void;
 }
