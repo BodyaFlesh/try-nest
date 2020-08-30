@@ -15,6 +15,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CoffeesController = void 0;
 const common_1 = require("@nestjs/common");
 const coffees_service_1 = require("./coffees.service");
+const create_coffee_dto_1 = require("./dto/create-coffee.dto");
+const update_coffee_dto_1 = require("./dto/update-coffee.dto");
 let CoffeesController = class CoffeesController {
     constructor(coffeesService) {
         this.coffeesService = coffeesService;
@@ -26,11 +28,12 @@ let CoffeesController = class CoffeesController {
     findOne(id) {
         return this.coffeesService.findOne(id);
     }
-    create(body) {
-        return this.coffeesService.create(body);
+    create(createCoffeeDto) {
+        this.coffeesService.create(createCoffeeDto);
+        return createCoffeeDto;
     }
-    update(id, body) {
-        return this.coffeesService.update(id, body);
+    update(id, updateCoffeeDto) {
+        return this.coffeesService.update(id, updateCoffeeDto);
     }
     remove(id) {
         return this.coffeesService.remove(id);
@@ -54,14 +57,14 @@ __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [create_coffee_dto_1.CreateCoffeeDto]),
     __metadata("design:returntype", void 0)
 ], CoffeesController.prototype, "create", null);
 __decorate([
     common_1.Patch(':id'),
     __param(0, common_1.Param('id')), __param(1, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Object]),
+    __metadata("design:paramtypes", [String, update_coffee_dto_1.UpdateCoffeeDto]),
     __metadata("design:returntype", void 0)
 ], CoffeesController.prototype, "update", null);
 __decorate([

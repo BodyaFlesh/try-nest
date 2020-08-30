@@ -9,28 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Coffee = void 0;
-const typeorm_1 = require("typeorm");
-let Coffee = class Coffee {
-};
+exports.CreateCoffeeDto = void 0;
+const class_validator_1 = require("class-validator");
+class CreateCoffeeDto {
+}
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
-    __metadata("design:type", Number)
-], Coffee.prototype, "id", void 0);
-__decorate([
-    typeorm_1.Column(),
+    class_validator_1.IsString(),
     __metadata("design:type", String)
-], Coffee.prototype, "name", void 0);
+], CreateCoffeeDto.prototype, "name", void 0);
 __decorate([
-    typeorm_1.Column(),
+    class_validator_1.IsString(),
     __metadata("design:type", String)
-], Coffee.prototype, "brand", void 0);
+], CreateCoffeeDto.prototype, "brand", void 0);
 __decorate([
-    typeorm_1.Column('json', { nullable: true }),
+    class_validator_1.IsString({ each: true }),
     __metadata("design:type", Array)
-], Coffee.prototype, "flavors", void 0);
-Coffee = __decorate([
-    typeorm_1.Entity()
-], Coffee);
-exports.Coffee = Coffee;
-//# sourceMappingURL=coffee.entity.js.map
+], CreateCoffeeDto.prototype, "flavors", void 0);
+exports.CreateCoffeeDto = CreateCoffeeDto;
+//# sourceMappingURL=create-coffee.dto.js.map
