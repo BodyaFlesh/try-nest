@@ -23,7 +23,11 @@ let CoffeesService = class CoffeesService {
         return this.coffees;
     }
     findOne(id) {
-        return this.coffees.find(item => item.id === +id);
+        const coffee = this.coffees.find(item => item.id === +id);
+        if (!coffee) {
+            throw new common_1.NotFoundException(`Coffee #${id} not found`);
+        }
+        return coffee;
     }
     create(createCoffeeDto) {
         this.coffees.push(createCoffeeDto);

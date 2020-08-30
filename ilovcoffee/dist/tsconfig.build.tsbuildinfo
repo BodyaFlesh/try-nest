@@ -1172,7 +1172,7 @@
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.service.ts": {
-        "version": "6aa678bfc2f2cc853fe910689eb2d60ed734c31501379c3da757f37003d42fd3",
+        "version": "a3dffd8eacd9f1b4a65faf5300088892068dd5c530fd4904c36a2313d238c3c6",
         "signature": "9941090dc94365926b3a8186bfe3df541b0ecbcab61724a577a1f39e2de04e94",
         "affectsGlobalScope": false
       },
