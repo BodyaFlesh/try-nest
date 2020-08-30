@@ -28,7 +28,9 @@ __decorate([
 ], Coffee.prototype, "brand", void 0);
 __decorate([
     typeorm_1.JoinTable(),
-    typeorm_1.ManyToMany(type => flavor_entity_1.Flavor, (flavor) => flavor.coffees),
+    typeorm_1.ManyToMany(type => flavor_entity_1.Flavor, (flavor) => flavor.coffees, {
+        cascade: true
+    }),
     __metadata("design:type", Array)
 ], Coffee.prototype, "flavors", void 0);
 Coffee = __decorate([

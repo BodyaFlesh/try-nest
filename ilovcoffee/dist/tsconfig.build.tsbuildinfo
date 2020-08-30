@@ -2432,8 +2432,8 @@
         "affectsGlobalScope": false
       },
       "../src/coffees/entities/coffee.entity.ts": {
-        "version": "4fc46f36b9bc25b0d3ac06449b47ea57b3636484f58b0dde5e39dcfa7c1ec6fd",
-        "signature": "e4aebe3c70ebb799ff41d1032579e390adcdbc275d06052a6fcf034f5efe40e2",
+        "version": "e93ae13e94988ab36021d1bc1163c14e37d6b50b9f3888cf9f758a23813f48ec",
+        "signature": "f1db496042090e484d98a74da2629c4567b9b2868f379238cffd16d6993d539e",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
@@ -3147,8 +3147,8 @@
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.service.ts": {
-        "version": "482ab5daa9b93aa77086b50bda5da15268321a530bc06e77d1e16d17ae9d790d",
-        "signature": "3c7ed56091939fcf62dddde19193879bd26ff3db4ec7676ee5940ed8bd90b818",
+        "version": "bed90179b08ccf2fc59b83920457a8670c457db3bb138195e5d2afdc540dad9b",
+        "signature": "df5222bf44ef88c0a89befcd79919808fa1e8aeb6bd2f49c6416b4b599be7d2f",
         "affectsGlobalScope": false
       },
       "../src/coffees/coffees.controller.ts": {
@@ -10967,7 +10967,8 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/coffees/dto/create-coffee.dto.ts",
         "../src/coffees/dto/update-coffee.dto.ts",
-        "../src/coffees/entities/coffee.entity.ts"
+        "../src/coffees/entities/coffee.entity.ts",
+        "../src/coffees/entities/flavor.entity.ts"
       ],
       "../src/coffees/dto/create-coffee.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18065,11 +18066,15 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/coffees/dto/create-coffee.dto.ts",
         "../src/coffees/dto/update-coffee.dto.ts",
-        "../src/coffees/entities/coffee.entity.ts"
+        "../src/coffees/entities/coffee.entity.ts",
+        "../src/coffees/entities/flavor.entity.ts"
       ],
       "../src/coffees/dto/update-coffee.dto.ts": [
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/coffees/dto/create-coffee.dto.ts"
+      ],
+      "../src/coffees/entities/coffee.entity.ts": [
+        "../src/coffees/entities/flavor.entity.ts"
       ],
       "../src/coffees/entities/flavor.entity.ts": [
         "../src/coffees/entities/coffee.entity.ts"
